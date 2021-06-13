@@ -1,0 +1,65 @@
+body {
+	background-image: url('./images/vialactia.png.png');
+	background-repeat: repeat-y;
+	font-family: Varela Round;
+	background-color: #a326c9ce;
+	background-size: 100vw 110vh;
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+h1 {
+	font-family: Varela Round;
+	font-size: 72px;
+	text-align: center;
+	color: #ffffff;
+}
+button {
+	width: 32vw;
+	height: 10vh;
+	font-size: 3.5vw;
+	font-family: Varela Round;
+	background-color: #535252ce;
+	color: #ffffff;
+}
+.mostrarMais {
+	display: none;
+}
+div {
+	color: #ffffff;
+	display: contents;
+}
+
+span {
+	font-size: 24px;
+	margin: 10px 20%;
+	display: none;
+}
+.btnLeiaMais {
+	height: 6vw;
+	width: 15vh;
+	font-size: 2vh;
+}
+a {
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #454545;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

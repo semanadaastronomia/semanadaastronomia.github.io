@@ -1,0 +1,67 @@
+body {
+	background: rgb(102, 168, 167);
+	background: linear-gradient(
+		180deg,
+		rgb(102, 168, 167) 0%,
+		rgba(18, 57, 134, 1) 100%
+	);
+	color: rgb(255, 255, 255);
+	font-family: Varela Round;
+	display: block;
+}
+.Divide {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+article {
+	font-size: 28px;
+	width: 40%;
+}
+.Questao {
+	width: 50%;
+	margin-left: 7%;
+	text-align: right;
+}
+section {
+	font-size: 28px;
+	margin-bottom: 10%;
+}
+select,
+option {
+	font-size: 28px;
+}
+img {
+	width: 45vw;
+	height: auto;
+	opacity: 80%;
+	border: #000 solid 6px;
+	border-radius: 10px;
+}
+button {
+	color: #fff;
+	font-size: 24px;
+	background-color: #c4c4c483;
+}
+.Botao {
+	display: flex;
+	flex-direction: row-reverse;
+}
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #454545;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

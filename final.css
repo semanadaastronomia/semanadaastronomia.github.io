@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	font-family: Varela Round;
+	font-size: 28px;
+	color: #fff;
+}
+body {
+	background: rgb(6, 27, 87);
+	background: linear-gradient(
+		0deg,
+		rgba(6, 27, 87, 1),
+		rgba(18, 57, 134, 1),
+		rgba(18, 57, 134, 1),
+		rgba(6, 27, 87, 1)
+	);
+}
+
+header {
+	width: 300px;
+	height: 50px;
+	padding: px;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-top: -3px;
+	margin-left: -150px;
+	font-size: 40px;
+}
+.lblResultado {
+	width: 320px;
+	height: 50px;
+	padding: 5px;
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	margin-left: -160px;
+
+	font-size: 21px;
+}
+.acertou p {
+	background: #2e702e;
+	margin: 0px;
+	text-align: center;
+	font-size: 50px;
+	border-radius: 7px;
+}
+.errou {
+	background: #993737;
+	display: none;
+	margin: 0px;
+	text-align: center;
+	font-size: 50px;
+	border-radius: 7px;
+}
+
+p {
+	margin: 15px;
+	margin-bottom: 36px;
+}
+
+main {
+	position: absolute;
+	top: 130px;
+	width: 100%;
+	background: #45454591;
+	color: #fff;
+}
+
+main p {
+	text-align: left;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #454545;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+input {
+	background: #ff000000;
+	border: 0px;
+}
+.correcao {
+	display: none;
+}
