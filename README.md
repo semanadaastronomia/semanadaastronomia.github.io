@@ -1,4 +1,4 @@
-# semana da gastronomia
+# semana da astronomia
 
 ## Lembrete importante:
 
